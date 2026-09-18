@@ -69,7 +69,13 @@ export function startServer({ port, log = appendLog }) {
       res.end('unknown feed\n');
       return;
     }
-    const version = entry.pinVersion || (await installedVersion(entry.appPath)) || entry.version || '0.0.0';
+    const version = entry.pinVersion || (await installedVersion(entry.appPath)) || entry.version || null;
+    if (!version) {
+      log(`feed ERROR ${req.url}: installed version unavailable`);
+      res.writeHead(503, { 'content-type': 'text/plain', 'cache-control': 'no-store' });
+      res.end('installed version unavailable\n');
+      return;
+    }
     const artifact = `${slug}-${version}.zip`;
     const body = stubYml({ version, artifactName: artifact });
     log(`feed HIT ${req.url} -> version ${version}`);

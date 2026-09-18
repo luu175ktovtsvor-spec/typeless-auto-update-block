@@ -196,6 +196,27 @@ test('serves the no-op feed, re-applies the patch and guards the cache', async (
   }
 });
 
+test('does not fabricate a version when the installed version is unavailable', async () => {
+  const port = await freePort();
+  util.writeJsonAtomic(util.PATHS.state, {
+    schema: 1,
+    port,
+    apps: {
+      unavailable: {
+        appPath: path.join(sandbox, 'missing-version.app'),
+        version: null,
+      },
+    },
+  });
+  const server = await daemon.startServer({ port, log: () => {} });
+  try {
+    const response = await fetch(`http://127.0.0.1:${port}/unavailable/arm64-mac.yml`);
+    assert.equal(response.status, 503);
+  } finally {
+    await new Promise((resolve) => server.close(resolve));
+  }
+});
+
 test('cache guard ignores a directory that does not look like the updater cache', () => {
   const target = path.join(sandbox, 'cache', 'unrelated-dir', 'pending');
   fs.mkdirSync(target, { recursive: true });
