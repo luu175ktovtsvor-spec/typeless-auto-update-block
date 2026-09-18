@@ -1,0 +1,239 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="940" viewBox="0 0 1600 940" role="img">
+<defs>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; fill: #0B1220; }
+      .title { font-size: 40px; font-weight: 780; letter-spacing: -0.6px; }
+      .subtitle { font-size: 16px; fill: #475569; }
+      .section { font-size: 19px; font-weight: 730; }
+      .section-sub { font-size: 13px; fill: #8194AD; }
+      .cardtitle { font-size: 16px; font-weight: 700; }
+      .body { font-size: 13.5px; fill: #475569; }
+      .small { font-size: 12.2px; fill: #8194AD; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12.4px; fill: #475569; }
+      .tiny { font-size: 11.5px; font-weight: 640; letter-spacing: 0.2px; }
+    </style>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F7FAFF"/><stop offset="55%" stop-color="#F2F6FE"/><stop offset="100%" stop-color="#EEF3FD"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#60A5FA" stop-opacity="0.30"/><stop offset="100%" stop-color="#60A5FA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.26"/><stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowC" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#5EEAD4" stop-opacity="0.24"/><stop offset="100%" stop-color="#5EEAD4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#0B1220" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    
+      <linearGradient id="lgblue" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#7DD3FC"/><stop offset="100%" stop-color="#2563EB"/>
+      </linearGradient>
+      <linearGradient id="softblue" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#7DD3FC" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#2563EB" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahblue" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#2563EB"/>
+      </marker>
+      <filter id="glowblue" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#2563EB" flood-opacity="0.32"/>
+      </filter>
+      <linearGradient id="lgindigo" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#A5B4FC"/><stop offset="100%" stop-color="#4F46E5"/>
+      </linearGradient>
+      <linearGradient id="softindigo" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#A5B4FC" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#4F46E5" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahindigo" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#4F46E5"/>
+      </marker>
+      <filter id="glowindigo" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#4F46E5" flood-opacity="0.32"/>
+      </filter>
+      <linearGradient id="lgviolet" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#C4B5FD"/><stop offset="100%" stop-color="#7C3AED"/>
+      </linearGradient>
+      <linearGradient id="softviolet" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#C4B5FD" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#7C3AED" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahviolet" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#7C3AED"/>
+      </marker>
+      <filter id="glowviolet" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#7C3AED" flood-opacity="0.32"/>
+      </filter>
+      <linearGradient id="lgteal" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#5EEAD4"/><stop offset="100%" stop-color="#0D9488"/>
+      </linearGradient>
+      <linearGradient id="softteal" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#5EEAD4" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#0D9488" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahteal" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#0D9488"/>
+      </marker>
+      <filter id="glowteal" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#0D9488" flood-opacity="0.32"/>
+      </filter>
+      <linearGradient id="lggreen" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#86EFAC"/><stop offset="100%" stop-color="#16A34A"/>
+      </linearGradient>
+      <linearGradient id="softgreen" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#86EFAC" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#16A34A" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahgreen" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#16A34A"/>
+      </marker>
+      <filter id="glowgreen" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#16A34A" flood-opacity="0.32"/>
+      </filter>
+      <linearGradient id="lgamber" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#FDE68A"/><stop offset="100%" stop-color="#F59E0B"/>
+      </linearGradient>
+      <linearGradient id="softamber" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#FDE68A" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahamber" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#F59E0B"/>
+      </marker>
+      <filter id="glowamber" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#F59E0B" flood-opacity="0.32"/>
+      </filter>
+      <linearGradient id="lgrose" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#FDA4AF"/><stop offset="100%" stop-color="#E11D48"/>
+      </linearGradient>
+      <linearGradient id="softrose" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#FDA4AF" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#E11D48" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahrose" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#E11D48"/>
+      </marker>
+      <filter id="glowrose" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#E11D48" flood-opacity="0.32"/>
+      </filter>
+      <linearGradient id="lgslate" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#CBD5E1"/><stop offset="100%" stop-color="#475569"/>
+      </linearGradient>
+      <linearGradient id="softslate" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#CBD5E1" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#475569" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahslate" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#475569"/>
+      </marker>
+      <filter id="glowslate" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#475569" flood-opacity="0.32"/>
+      </filter>
+      <linearGradient id="lgdark" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#1E293B"/><stop offset="100%" stop-color="#0B1220"/>
+      </linearGradient>
+      <linearGradient id="softdark" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#1E293B" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#0B1220" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahdark" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#0B1220"/>
+      </marker>
+      <filter id="glowdark" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#0B1220" flood-opacity="0.32"/>
+      </filter>
+    <filter id="soft" x="-12%" y="-16%" width="124%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#0B1220" flood-opacity="0.07"/>
+    </filter>
+    <filter id="lift" x="-14%" y="-18%" width="128%" height="146%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0B1220" flood-opacity="0.10"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0B1220" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="940" fill="url(#bg)"/>
+  <circle cx="-80" cy="-120" r="700" fill="url(#glowA)"/><circle cx="980" cy="480" r="700" fill="url(#glowB)"/><circle cx="672" cy="517" r="620" fill="url(#glowC)"/>
+  <rect width="1600" height="940" fill="url(#grid)"/>
+<rect x="72" y="58" width="54" height="54" rx="17" fill="url(#lgblue)"/><g transform="translate(86,72) scale(1.0833)" fill="none" stroke="#ffffff" stroke-width="2.03" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><path d="M4.2 7.5l15.6 9"/><path d="M19.8 7.5l-15.6 9"/></g><text class="title" x="144" y="94" >状态目录与生命周期</text><text class="subtitle" x="146" y="120" >先 revert 和卸载服务，再删除状态目录</text>
+<rect x="72" y="176" width="760" height="620" rx="26" fill="#ffffff" stroke="#E7EDF6" stroke-width="1.3" filter="url(#lift)"/>
+<rect x="100" y="204" width="48" height="48" rx="15.36" fill="url(#lgteal)"/><rect x="100" y="204" width="48" height="48" rx="15.36" fill="none" stroke="#5EEAD4" stroke-opacity="0.9"/><g transform="translate(112.48,216.48) scale(0.9600)" fill="none" stroke="#ffffff" stroke-width="2.29" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7.5a2 2 0 0 1 2-2h3.5l1.8 2H19a2 2 0 0 1 2 2v8.5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></g>
+<text class="section" x="164" y="226" font-size="17px">~/.typeless-auto-update-block/</text>
+<text class="section-sub" x="164" y="250" font-size="11px">Windows: %LOCALAPPDATA%\typeless-auto-update-block</text>
+<rect x="100" y="292" width="704" height="68" rx="16" fill="#FFFFFF" stroke="#EFF6FF" stroke-width="1.3" filter="url(#soft)"/><rect x="100" y="292" width="6" height="68" rx="3" fill="url(#lgblue)"/>
+<g transform="translate(124,314) scale(0.9167)" fill="none" stroke="#3B82F6" stroke-width="2.29" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 3h6l4 4v14h-10z"/><path d="M13.5 3v4.5H18"/></g>
+<text class="mono" x="156" y="322" style="fill:#0B1220">app/</text>
+<text class="small" x="156" y="344" >工具稳定副本（仓库可移动 / 删除）</text>
+<rect x="640" y="311" width="47.3" height="30" rx="15" fill="#EFF6FF" stroke="#7DD3FC" stroke-opacity="0.75"/><text x="663.7" y="330.14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="600" style="fill:#2563EB">CLI</text>
+<rect x="100" y="374" width="704" height="68" rx="16" fill="#FFFFFF" stroke="#EFF6FF" stroke-width="1.3" filter="url(#soft)"/><rect x="100" y="374" width="6" height="68" rx="3" fill="url(#lgblue)"/>
+<g transform="translate(124,396) scale(0.9167)" fill="none" stroke="#3B82F6" stroke-width="2.29" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 3h6l4 4v14h-10z"/><path d="M13.5 3v4.5H18"/></g>
+<text class="mono" x="156" y="404" style="fill:#0B1220">bin/typeless-auto-update-block-agent.sh | .cmd</text>
+<text class="small" x="156" y="426" >运行时解析 node 的启动包装脚本</text>
+<rect x="640" y="393" width="47.3" height="30" rx="15" fill="#EFF6FF" stroke="#7DD3FC" stroke-opacity="0.75"/><text x="663.7" y="412.14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="600" style="fill:#2563EB">CLI</text>
+<rect x="100" y="456" width="704" height="68" rx="16" fill="#FFFFFF" stroke="#F0FDF4" stroke-width="1.3" filter="url(#soft)"/><rect x="100" y="456" width="6" height="68" rx="3" fill="url(#lggreen)"/>
+<g transform="translate(124,478) scale(0.9167)" fill="none" stroke="#22C55E" stroke-width="2.29" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 3h6l4 4v14h-10z"/><path d="M13.5 3v4.5H18"/></g>
+<text class="mono" x="156" y="486" style="fill:#0B1220">backups/&lt;slug&gt;/app-update.yml</text>
+<text class="small" x="156" y="508" >原始配置逐字节备份</text>
+<rect x="640" y="475" width="47.3" height="30" rx="15" fill="#F0FDF4" stroke="#86EFAC" stroke-opacity="0.75"/><text x="663.7" y="494.14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="600" style="fill:#16A34A">CLI</text>
+<rect x="100" y="538" width="704" height="68" rx="16" fill="#FFFFFF" stroke="#F0FDF4" stroke-width="1.3" filter="url(#soft)"/><rect x="100" y="538" width="6" height="68" rx="3" fill="url(#lggreen)"/>
+<g transform="translate(124,560) scale(0.9167)" fill="none" stroke="#22C55E" stroke-width="2.29" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 3h6l4 4v14h-10z"/><path d="M13.5 3v4.5H18"/></g>
+<text class="mono" x="156" y="568" style="fill:#0B1220">backups/&lt;slug&gt;/meta.json</text>
+<text class="small" x="156" y="590" >来源路径、原始 url、备份时间</text>
+<rect x="640" y="557" width="47.3" height="30" rx="15" fill="#F0FDF4" stroke="#86EFAC" stroke-opacity="0.75"/><text x="663.7" y="576.14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="600" style="fill:#16A34A">CLI</text>
+<rect x="100" y="620" width="704" height="68" rx="16" fill="#FFFFFF" stroke="#FFFBEB" stroke-width="1.3" filter="url(#soft)"/><rect x="100" y="620" width="6" height="68" rx="3" fill="url(#lgamber)"/>
+<g transform="translate(124,642) scale(0.9167)" fill="none" stroke="#F59E0B" stroke-width="2.29" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 3h6l4 4v14h-10z"/><path d="M13.5 3v4.5H18"/></g>
+<text class="mono" x="156" y="650" style="fill:#0B1220">logs/agent.log</text>
+<text class="small" x="156" y="672" >清单命中、重打补丁、清理缓存、失败提示</text>
+<rect x="640" y="639" width="66.6" height="30" rx="15" fill="#FFFBEB" stroke="#FDE68A" stroke-opacity="0.75"/><text x="673.3" y="658.14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="600" style="fill:#F59E0B">daemon</text>
+<rect x="100" y="702" width="704" height="68" rx="16" fill="#FFFFFF" stroke="#F5F3FF" stroke-width="1.3" filter="url(#soft)"/><rect x="100" y="702" width="6" height="68" rx="3" fill="url(#lgviolet)"/>
+<g transform="translate(124,724) scale(0.9167)" fill="none" stroke="#8B5CF6" stroke-width="2.29" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 3h6l4 4v14h-10z"/><path d="M13.5 3v4.5H18"/></g>
+<text class="mono" x="156" y="732" style="fill:#0B1220">state.json</text>
+<text class="small" x="156" y="754" >冻结清单 / 端口 / 通知限流</text>
+<rect x="640" y="721" width="105.3" height="30" rx="15" fill="#F5F3FF" stroke="#C4B5FD" stroke-opacity="0.75"/><text x="692.6" y="740.14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="600" style="fill:#7C3AED">CLI + daemon</text>
+<rect x="872" y="176" width="656" height="620" rx="26" fill="#ffffff" stroke="#E7EDF6" stroke-width="1.3" filter="url(#lift)"/>
+<rect x="900" y="204" width="48" height="48" rx="15.36" fill="url(#lgviolet)"/><rect x="900" y="204" width="48" height="48" rx="15.36" fill="none" stroke="#C4B5FD" stroke-opacity="0.9"/><g transform="translate(912.48,216.48) scale(0.9600)" fill="none" stroke="#ffffff" stroke-width="2.29" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.5a8.5 8.5 0 1 0 0-17 8.5 8.5 0 0 0 0 17"/><path d="M12 7.5V12l3 2"/></g>
+<text class="section" x="964" y="226" >生命周期</text>
+<text class="section-sub" x="964" y="250" >每条命令只影响它该影响的东西</text>
+<line x1="936" y1="292" x2="936" y2="742" stroke="#E7EDF6" stroke-width="3"/>
+<circle cx="936" cy="320" r="16" fill="url(#lgblue)"/>
+<circle cx="936" cy="320" r="13.5" fill="none" stroke="#ffffff" stroke-opacity="0.6"/>
+<text x="936" y="325.4" text-anchor="middle" font-size="13" font-weight="750" style="fill:#ffffff">1</text>
+<rect x="972" y="304" width="54.9" height="30" rx="15" fill="#EFF6FF" stroke="#7DD3FC" stroke-opacity="0.75"/><text x="999.4" y="323.32" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="600" style="fill:#2563EB">scan</text>
+<text class="cardtitle" x="1038.88" y="325" font-size="14.5px">只读盘点</text>
+<text class="small" x="972" y="346" font-size="12px">识别更新源，不写任何文件</text>
+<circle cx="936" cy="398" r="16" fill="url(#lgviolet)"/>
+<circle cx="936" cy="398" r="13.5" fill="none" stroke="#ffffff" stroke-opacity="0.6"/>
+<text x="936" y="403.4" text-anchor="middle" font-size="13" font-weight="750" style="fill:#ffffff">2</text>
+<rect x="972" y="382" width="68.3" height="30" rx="15" fill="#F5F3FF" stroke="#C4B5FD" stroke-opacity="0.75"/><text x="1006.2" y="401.32" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="600" style="fill:#7C3AED">freeze</text>
+<text class="cardtitle" x="1052.32" y="403" font-size="14.5px">应用本地 feed</text>
+<text class="small" x="972" y="424" font-size="12px">备份 → 改 url → 安装服务 → 启动守护</text>
+<circle cx="936" cy="476" r="16" fill="url(#lggreen)"/>
+<circle cx="936" cy="476" r="13.5" fill="none" stroke="#ffffff" stroke-opacity="0.6"/>
+<text x="936" y="481.4" text-anchor="middle" font-size="13" font-weight="750" style="fill:#ffffff">3</text>
+<rect x="972" y="460" width="76.0" height="30" rx="15" fill="#F0FDF4" stroke="#86EFAC" stroke-opacity="0.75"/><text x="1010.0" y="479.32" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="600" style="fill:#16A34A">（常态）</text>
+<text class="cardtitle" x="1060" y="481" font-size="14.5px">持续运行</text>
+<text class="small" x="972" y="502" font-size="12px">应答清单、20 秒对账、清理缓存、必要时通知</text>
+<circle cx="936" cy="554" r="16" fill="url(#lgamber)"/>
+<circle cx="936" cy="554" r="13.5" fill="none" stroke="#ffffff" stroke-opacity="0.6"/>
+<text x="936" y="559.4" text-anchor="middle" font-size="13" font-weight="750" style="fill:#ffffff">4</text>
+<rect x="972" y="538" width="68.3" height="30" rx="15" fill="#FFFBEB" stroke="#FDE68A" stroke-opacity="0.75"/><text x="1006.2" y="557.32" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="600" style="fill:#F59E0B">repair</text>
+<text class="cardtitle" x="1052.32" y="559" font-size="14.5px">人工兜底</text>
+<text class="small" x="972" y="580" font-size="12px">系统拦截后台写入时，在你的终端里重新打补丁</text>
+<circle cx="936" cy="632" r="16" fill="url(#lgslate)"/>
+<circle cx="936" cy="632" r="13.5" fill="none" stroke="#ffffff" stroke-opacity="0.6"/>
+<text x="936" y="637.4" text-anchor="middle" font-size="13" font-weight="750" style="fill:#ffffff">5</text>
+<rect x="972" y="616" width="68.3" height="30" rx="15" fill="#F8FAFC" stroke="#CBD5E1" stroke-opacity="0.75"/><text x="1006.2" y="635.32" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="600" style="fill:#475569">revert</text>
+<text class="cardtitle" x="1052.32" y="637" font-size="14.5px">还原</text>
+<text class="small" x="972" y="658" font-size="12px">恢复原始 url；系统信任状态需重新校验</text>
+<circle cx="936" cy="710" r="16" fill="url(#lgrose)"/>
+<circle cx="936" cy="710" r="13.5" fill="none" stroke="#ffffff" stroke-opacity="0.6"/>
+<text x="936" y="715.4" text-anchor="middle" font-size="13" font-weight="750" style="fill:#ffffff">6</text>
+<rect x="972" y="694" width="128.8" height="30" rx="15" fill="#FFF1F2" stroke="#FDA4AF" stroke-opacity="0.75"/><text x="1036.4" y="713.32" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="600" style="fill:#E11D48">agent uninstall</text>
+<text class="cardtitle" x="1112.8" y="715" font-size="14.5px">卸载服务</text>
+<text class="small" x="972" y="736" font-size="12px">删除自启项；状态目录由用户确认后删除</text>
+<rect x="72" y="828" width="1456" height="76" rx="20" fill="#FFFFFF" stroke="#E7EDF6" stroke-width="1.3" filter="url(#soft)"/>
+<g transform="translate(100,850) scale(0.9167)" fill="none" stroke="#14B8A6" stroke-width="2.29" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.2l7 2.8v6c0 4-3 7-7 9-4-2-7-5-7-9v-6z"/><path d="M9 12.2l2.1 2.1 4-4.2"/></g>
+<text class="cardtitle" x="136" y="866" font-size="15px">恢复顺序</text>
+<text class="small" x="136" y="888" >先 revert --all，再 agent uninstall，最后删除状态目录；多数查询命令支持 --json。</text>
+</svg>

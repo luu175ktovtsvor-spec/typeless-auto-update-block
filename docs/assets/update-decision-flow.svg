@@ -1,0 +1,247 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1020" viewBox="0 0 1600 1020" role="img">
+<defs>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; fill: #0B1220; }
+      .title { font-size: 40px; font-weight: 780; letter-spacing: -0.6px; }
+      .subtitle { font-size: 16px; fill: #475569; }
+      .section { font-size: 19px; font-weight: 730; }
+      .section-sub { font-size: 13px; fill: #8194AD; }
+      .cardtitle { font-size: 16px; font-weight: 700; }
+      .body { font-size: 13.5px; fill: #475569; }
+      .small { font-size: 12.2px; fill: #8194AD; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12.4px; fill: #475569; }
+      .tiny { font-size: 11.5px; font-weight: 640; letter-spacing: 0.2px; }
+    </style>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F7FAFF"/><stop offset="55%" stop-color="#F2F6FE"/><stop offset="100%" stop-color="#EEF3FD"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#60A5FA" stop-opacity="0.30"/><stop offset="100%" stop-color="#60A5FA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.26"/><stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowC" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#5EEAD4" stop-opacity="0.24"/><stop offset="100%" stop-color="#5EEAD4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#0B1220" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    
+      <linearGradient id="lgblue" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#7DD3FC"/><stop offset="100%" stop-color="#2563EB"/>
+      </linearGradient>
+      <linearGradient id="softblue" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#7DD3FC" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#2563EB" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahblue" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#2563EB"/>
+      </marker>
+      <filter id="glowblue" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#2563EB" flood-opacity="0.32"/>
+      </filter>
+      <linearGradient id="lgindigo" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#A5B4FC"/><stop offset="100%" stop-color="#4F46E5"/>
+      </linearGradient>
+      <linearGradient id="softindigo" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#A5B4FC" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#4F46E5" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahindigo" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#4F46E5"/>
+      </marker>
+      <filter id="glowindigo" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#4F46E5" flood-opacity="0.32"/>
+      </filter>
+      <linearGradient id="lgviolet" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#C4B5FD"/><stop offset="100%" stop-color="#7C3AED"/>
+      </linearGradient>
+      <linearGradient id="softviolet" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#C4B5FD" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#7C3AED" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahviolet" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#7C3AED"/>
+      </marker>
+      <filter id="glowviolet" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#7C3AED" flood-opacity="0.32"/>
+      </filter>
+      <linearGradient id="lgteal" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#5EEAD4"/><stop offset="100%" stop-color="#0D9488"/>
+      </linearGradient>
+      <linearGradient id="softteal" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#5EEAD4" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#0D9488" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahteal" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#0D9488"/>
+      </marker>
+      <filter id="glowteal" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#0D9488" flood-opacity="0.32"/>
+      </filter>
+      <linearGradient id="lggreen" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#86EFAC"/><stop offset="100%" stop-color="#16A34A"/>
+      </linearGradient>
+      <linearGradient id="softgreen" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#86EFAC" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#16A34A" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahgreen" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#16A34A"/>
+      </marker>
+      <filter id="glowgreen" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#16A34A" flood-opacity="0.32"/>
+      </filter>
+      <linearGradient id="lgamber" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#FDE68A"/><stop offset="100%" stop-color="#F59E0B"/>
+      </linearGradient>
+      <linearGradient id="softamber" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#FDE68A" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahamber" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#F59E0B"/>
+      </marker>
+      <filter id="glowamber" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#F59E0B" flood-opacity="0.32"/>
+      </filter>
+      <linearGradient id="lgrose" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#FDA4AF"/><stop offset="100%" stop-color="#E11D48"/>
+      </linearGradient>
+      <linearGradient id="softrose" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#FDA4AF" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#E11D48" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahrose" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#E11D48"/>
+      </marker>
+      <filter id="glowrose" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#E11D48" flood-opacity="0.32"/>
+      </filter>
+      <linearGradient id="lgslate" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#CBD5E1"/><stop offset="100%" stop-color="#475569"/>
+      </linearGradient>
+      <linearGradient id="softslate" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#CBD5E1" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#475569" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahslate" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#475569"/>
+      </marker>
+      <filter id="glowslate" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#475569" flood-opacity="0.32"/>
+      </filter>
+      <linearGradient id="lgdark" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#1E293B"/><stop offset="100%" stop-color="#0B1220"/>
+      </linearGradient>
+      <linearGradient id="softdark" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#1E293B" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#0B1220" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahdark" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#0B1220"/>
+      </marker>
+      <filter id="glowdark" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#0B1220" flood-opacity="0.32"/>
+      </filter>
+    <filter id="soft" x="-12%" y="-16%" width="124%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#0B1220" flood-opacity="0.07"/>
+    </filter>
+    <filter id="lift" x="-14%" y="-18%" width="128%" height="146%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0B1220" flood-opacity="0.10"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0B1220" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1020" fill="url(#bg)"/>
+  <circle cx="-80" cy="-120" r="700" fill="url(#glowA)"/><circle cx="980" cy="560" r="700" fill="url(#glowB)"/><circle cx="672" cy="561" r="620" fill="url(#glowC)"/>
+  <rect width="1600" height="1020" fill="url(#grid)"/>
+<rect x="72" y="58" width="54" height="54" rx="17" fill="url(#lgblue)"/><g transform="translate(86,72) scale(1.0833)" fill="none" stroke="#ffffff" stroke-width="2.03" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><path d="M4.2 7.5l15.6 9"/><path d="M19.8 7.5l-15.6 9"/></g><text class="title" x="144" y="94" >更新判定与漂移处理</text><text class="subtitle" x="146" y="120" >上半：清单如何返回当前版本 · 下半：配置变化后如何重写 url</text>
+<rect x="72" y="176" width="1456" height="316" rx="26" fill="#ffffff" stroke="#E7EDF6" stroke-width="1.3" filter="url(#lift)"/>
+<rect x="96" y="200" width="44" height="44" rx="14.08" fill="url(#lgblue)"/><rect x="96" y="200" width="44" height="44" rx="14.08" fill="none" stroke="#7DD3FC" stroke-opacity="0.9"/><g transform="translate(107.44,211.44) scale(0.8800)" fill="none" stroke="#ffffff" stroke-width="2.50" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 5.5l10 6.5-10 6.5z"/></g>
+<text class="section" x="154" y="222" >正常路径</text>
+<text class="section-sub" x="154" y="246" >应用负责版本比较；本项目只提供同版本清单</text>
+<rect x="96" y="280" width="262" height="190" rx="18" fill="#FFFFFF" stroke="#E7EDF6" stroke-width="1.3" filter="url(#soft)"/><rect x="96" y="280" width="6" height="190" rx="3" fill="url(#lgblue)"/>
+<circle cx="124" cy="310" r="15" fill="url(#lgblue)"/><circle cx="124" cy="310" r="13" fill="none" stroke="#ffffff" stroke-opacity="0.55"/><text x="124" y="315" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="12.9" font-weight="750" style="fill:#ffffff">1</text>
+<rect x="292" y="294" width="44" height="44" rx="14.08" fill="url(#lgblue)"/><rect x="292" y="294" width="44" height="44" rx="14.08" fill="none" stroke="#7DD3FC" stroke-opacity="0.9"/><g transform="translate(303.44,305.44) scale(0.8800)" fill="none" stroke="#ffffff" stroke-width="2.50" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 5.5h17v10.5h-17z"/><path d="M9 20h6"/><path d="M12 16v4"/></g>
+<text class="cardtitle" x="120" y="352" >应用启动</text>
+<text class="body" x="120" y="380" >读取包内更新配置</text>
+<text class="small" x="120" y="402" >url 已指向本机</text>
+<rect x="120" y="416" width="214" height="34" rx="12" fill="url(#lgdark)"/><circle cx="136" cy="433" r="3.4" fill="#F43F5E" fill-opacity="0.9"/><circle cx="148" cy="433" r="3.4" fill="#F59E0B" fill-opacity="0.9"/><circle cx="160" cy="433" r="3.4" fill="#22C55E" fill-opacity="0.9"/><text x="174" y="437.104" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.4" style="fill:#E2E8F0">url: 127.0.0.1:47821</text>
+<path d="M361,376 L377,376" fill="none" stroke="url(#lgblue)" stroke-width="3.2" stroke-linecap="round" filter="url(#glowblue)" marker-end="url(#ahblue)"/>
+<rect x="383" y="280" width="262" height="190" rx="18" fill="#FFFFFF" stroke="#E7EDF6" stroke-width="1.3" filter="url(#soft)"/><rect x="383" y="280" width="6" height="190" rx="3" fill="url(#lgindigo)"/>
+<circle cx="411" cy="310" r="15" fill="url(#lgindigo)"/><circle cx="411" cy="310" r="13" fill="none" stroke="#ffffff" stroke-opacity="0.55"/><text x="411" y="315" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="12.9" font-weight="750" style="fill:#ffffff">2</text>
+<rect x="579" y="294" width="44" height="44" rx="14.08" fill="url(#lgindigo)"/><rect x="579" y="294" width="44" height="44" rx="14.08" fill="none" stroke="#A5B4FC" stroke-opacity="0.9"/><g transform="translate(590.44,305.44) scale(0.8800)" fill="none" stroke="#ffffff" stroke-width="2.50" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h14"/><path d="M12.5 6.5L18 12l-5.5 5.5"/></g>
+<text class="cardtitle" x="407" y="352" >请求清单</text>
+<text class="body" x="407" y="380" >任意 channel 均应答</text>
+<text class="small" x="407" y="402" >?noCache= 也不影响</text>
+<rect x="407" y="416" width="214" height="34" rx="12" fill="url(#lgdark)"/><circle cx="423" cy="433" r="3.4" fill="#F43F5E" fill-opacity="0.9"/><circle cx="435" cy="433" r="3.4" fill="#F59E0B" fill-opacity="0.9"/><circle cx="447" cy="433" r="3.4" fill="#22C55E" fill-opacity="0.9"/><text x="461" y="437.104" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.4" style="fill:#E2E8F0">GET /&lt;slug&gt;/&lt;channel&gt;.yml</text>
+<path d="M648,376 L664,376" fill="none" stroke="url(#lgindigo)" stroke-width="3.2" stroke-linecap="round" filter="url(#glowindigo)" marker-end="url(#ahindigo)"/>
+<rect x="670" y="280" width="262" height="190" rx="18" fill="#FFFFFF" stroke="#E7EDF6" stroke-width="1.3" filter="url(#soft)"/><rect x="670" y="280" width="6" height="190" rx="3" fill="url(#lgviolet)"/>
+<circle cx="698" cy="310" r="15" fill="url(#lgviolet)"/><circle cx="698" cy="310" r="13" fill="none" stroke="#ffffff" stroke-opacity="0.55"/><text x="698" y="315" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="12.9" font-weight="750" style="fill:#ffffff">3</text>
+<rect x="866" y="294" width="44" height="44" rx="14.08" fill="url(#lgviolet)"/><rect x="866" y="294" width="44" height="44" rx="14.08" fill="none" stroke="#C4B5FD" stroke-opacity="0.9"/><g transform="translate(877.44,305.44) scale(0.8800)" fill="none" stroke="#ffffff" stroke-width="2.50" stroke-linecap="round" stroke-linejoin="round"><path d="M13.2 3L5.5 14h4.8l-1 7 8-11h-5z"/></g>
+<text class="cardtitle" x="694" y="352" >生成清单</text>
+<text class="body" x="694" y="380" >实时读取已装版本</text>
+<text class="small" x="694" y="402" >拼出合法 files[]</text>
+<rect x="694" y="416" width="214" height="34" rx="12" fill="url(#lgdark)"/><circle cx="710" cy="433" r="3.4" fill="#F43F5E" fill-opacity="0.9"/><circle cx="722" cy="433" r="3.4" fill="#F59E0B" fill-opacity="0.9"/><circle cx="734" cy="433" r="3.4" fill="#22C55E" fill-opacity="0.9"/><text x="748" y="437.104" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.4" style="fill:#E2E8F0">version: &lt;installed&gt;</text>
+<path d="M935,376 L951,376" fill="none" stroke="url(#lgviolet)" stroke-width="3.2" stroke-linecap="round" filter="url(#glowviolet)" marker-end="url(#ahviolet)"/>
+<rect x="957" y="280" width="262" height="190" rx="18" fill="#FFFFFF" stroke="#E7EDF6" stroke-width="1.3" filter="url(#soft)"/><rect x="957" y="280" width="6" height="190" rx="3" fill="url(#lgamber)"/>
+<circle cx="985" cy="310" r="15" fill="url(#lgamber)"/><circle cx="985" cy="310" r="13" fill="none" stroke="#ffffff" stroke-opacity="0.55"/><text x="985" y="315" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="12.9" font-weight="750" style="fill:#ffffff">4</text>
+<rect x="1153" y="294" width="44" height="44" rx="14.08" fill="url(#lgamber)"/><rect x="1153" y="294" width="44" height="44" rx="14.08" fill="none" stroke="#FDE68A" stroke-opacity="0.9"/><g transform="translate(1164.44,305.44) scale(0.8800)" fill="none" stroke="#ffffff" stroke-width="2.50" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.5a8.5 8.5 0 1 0 0-17 8.5 8.5 0 0 0 0 17"/><path d="M12 7.5V12l3 2"/></g>
+<text class="cardtitle" x="981" y="352" >版本比较</text>
+<text class="body" x="981" y="380" >清单版本 = 已装版本</text>
+<text class="small" x="981" y="402" >allowDowngrade: false</text>
+<rect x="981" y="416" width="214" height="34" rx="12" fill="url(#lgdark)"/><circle cx="997" cy="433" r="3.4" fill="#F43F5E" fill-opacity="0.9"/><circle cx="1009" cy="433" r="3.4" fill="#F59E0B" fill-opacity="0.9"/><circle cx="1021" cy="433" r="3.4" fill="#22C55E" fill-opacity="0.9"/><text x="1035" y="437.104" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.4" style="fill:#E2E8F0">compare(current, latest)</text>
+<path d="M1222,376 L1238,376" fill="none" stroke="url(#lggreen)" stroke-width="3.2" stroke-linecap="round" filter="url(#glowgreen)" marker-end="url(#ahgreen)"/>
+<rect x="1244" y="280" width="262" height="190" rx="18" fill="#F7FEF9" stroke="#BBF7D0" stroke-width="1.3" filter="url(#soft)"/><rect x="1244" y="280" width="6" height="190" rx="3" fill="url(#lggreen)"/>
+<circle cx="1272" cy="310" r="15" fill="url(#lggreen)"/><circle cx="1272" cy="310" r="13" fill="none" stroke="#ffffff" stroke-opacity="0.55"/><text x="1272" y="315" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="12.9" font-weight="750" style="fill:#ffffff">5</text>
+<rect x="1440" y="294" width="44" height="44" rx="14.08" fill="url(#lggreen)"/><rect x="1440" y="294" width="44" height="44" rx="14.08" fill="none" stroke="#86EFAC" stroke-opacity="0.9"/><g transform="translate(1451.44,305.44) scale(0.8800)" fill="none" stroke="#ffffff" stroke-width="2.50" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.8l4.2 4.2L19 7"/></g>
+<text class="cardtitle" x="1268" y="352" >结果：不更新</text>
+<text class="body" x="1268" y="380" >不触发更新包下载</text>
+<text class="small" x="1268" y="402" >当前版本实测显示“已是最新”</text>
+<rect x="1268" y="416" width="214" height="34" rx="12" fill="url(#lgdark)"/><circle cx="1284" cy="433" r="3.4" fill="#F43F5E" fill-opacity="0.9"/><circle cx="1296" cy="433" r="3.4" fill="#F59E0B" fill-opacity="0.9"/><circle cx="1308" cy="433" r="3.4" fill="#22C55E" fill-opacity="0.9"/><text x="1322" y="437.104" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.4" style="fill:#E2E8F0">update-not-available</text>
+<rect x="72" y="528" width="1456" height="336" rx="26" fill="#ffffff" stroke="#E7EDF6" stroke-width="1.3" filter="url(#lift)"/>
+<rect x="96" y="552" width="44" height="44" rx="14.08" fill="url(#lgviolet)"/><rect x="96" y="552" width="44" height="44" rx="14.08" fill="none" stroke="#C4B5FD" stroke-opacity="0.9"/><g transform="translate(107.44,563.44) scale(0.8800)" fill="none" stroke="#ffffff" stroke-width="2.50" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12a8 8 0 1 1-2.5-5.8"/><path d="M20.5 4v4.5H16"/></g>
+<text class="section" x="154" y="574" >配置漂移处理</text>
+<text class="section-sub" x="154" y="598" >应用被重装、升级或自行改写配置后，下个周期如何恢复本地 URL</text>
+<rect x="96" y="634" width="292" height="150" rx="18" fill="#FFFFFF" stroke="#E7EDF6" stroke-width="1.3" filter="url(#soft)"/><rect x="96" y="634" width="6" height="150" rx="3" fill="url(#lgslate)"/>
+<rect x="116" y="652" width="42" height="42" rx="13.44" fill="url(#lgslate)"/><rect x="116" y="652" width="42" height="42" rx="13.44" fill="none" stroke="#CBD5E1" stroke-opacity="0.9"/><g transform="translate(126.92,662.92) scale(0.8400)" fill="none" stroke="#ffffff" stroke-width="2.62" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v10.5"/><path d="M8 11l4 4 4-4"/><path d="M4.5 19.5h15"/></g>
+<text class="cardtitle" x="170" y="670" >配置被还原</text>
+<text class="small" x="116" y="716" font-size="12px">重装 / 升级后 url 回到官方地址</text>
+<path d="M391,700 L408,700" fill="none" stroke="url(#lgslate)" stroke-width="3.2" stroke-linecap="round" filter="url(#glowslate)" marker-end="url(#ahslate)"/>
+<rect x="412" y="634" width="292" height="150" rx="18" fill="#FFFFFF" stroke="#E7EDF6" stroke-width="1.3" filter="url(#soft)"/><rect x="412" y="634" width="6" height="150" rx="3" fill="url(#lgviolet)"/>
+<rect x="432" y="652" width="42" height="42" rx="13.44" fill="url(#lgviolet)"/><rect x="432" y="652" width="42" height="42" rx="13.44" fill="none" stroke="#C4B5FD" stroke-opacity="0.9"/><g transform="translate(442.92,662.92) scale(0.8400)" fill="none" stroke="#ffffff" stroke-width="2.62" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12a8 8 0 1 1-2.5-5.8"/><path d="M20.5 4v4.5H16"/></g>
+<text class="cardtitle" x="486" y="670" >对账发现漂移</text>
+<text class="small" x="432" y="716" font-size="12px">每 20 秒读一次配置，多应用逐个隔离</text>
+<path d="M707,700 L724,700" fill="none" stroke="url(#lgviolet)" stroke-width="3.2" stroke-linecap="round" filter="url(#glowviolet)" marker-end="url(#ahviolet)"/>
+<rect x="728" y="634" width="292" height="150" rx="18" fill="#FFFFFF" stroke="#E7EDF6" stroke-width="1.3" filter="url(#soft)"/><rect x="728" y="634" width="6" height="150" rx="3" fill="url(#lgblue)"/>
+<rect x="748" y="652" width="42" height="42" rx="13.44" fill="url(#lgblue)"/><rect x="748" y="652" width="42" height="42" rx="13.44" fill="none" stroke="#7DD3FC" stroke-opacity="0.9"/><g transform="translate(758.92,662.92) scale(0.8400)" fill="none" stroke="#ffffff" stroke-width="2.62" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 3h6l4 4v14h-10z"/><path d="M13.5 3v4.5H18"/></g>
+<text class="cardtitle" x="802" y="670" >只改回 url 一行</text>
+<text class="small" x="748" y="716" font-size="12px">写前逐键比对，拒绝不一致结果</text>
+<rect x="1084" y="626" width="444" height="84" rx="18" fill="#F7FEF9" stroke="#BBF7D0" stroke-width="1.3" filter="url(#soft)"/><rect x="1084" y="626" width="6" height="84" rx="3" fill="url(#lggreen)"/>
+<g transform="translate(1106,648) scale(1.0000)" fill="none" stroke="#22C55E" stroke-width="2.10" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.8l4.2 4.2L19 7"/></g>
+<text class="cardtitle" x="1142" y="660" >成功 · 自动恢复</text>
+<text class="small" x="1142" y="686" >日志记 re-applied；仍受 20 秒周期影响</text>
+<rect x="1084" y="726" width="444" height="118" rx="18" fill="#FFFCF5" stroke="#FDE68A" stroke-width="1.3" filter="url(#soft)"/><rect x="1084" y="726" width="6" height="118" rx="3" fill="url(#lgamber)"/>
+<g transform="translate(1106,748) scale(1.0000)" fill="none" stroke="#F59E0B" stroke-width="2.10" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.8l9 16.4H3z"/><path d="M12 10v4.4"/><path d="M12 17.4h.01"/></g>
+<text class="cardtitle" x="1142" y="760" >受限 · 需要你出手</text>
+<text class="small" x="1142" y="786" >macOS 13+ 会拦截后台写入应用包（EPERM）</text>
+<rect x="1142" y="800" width="176.1" height="30" rx="15" fill="url(#lgamber)" stroke="#FDE68A" stroke-opacity="1"/><text x="1230.1" y="819.14" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="650" style="fill:#ffffff">node src/cli.mjs repair</text>
+<path d="M1026,700 C1050,690 1052,668 1078,668" fill="none" stroke="url(#lggreen)" stroke-width="3.2" stroke-linecap="round" filter="url(#glowgreen)" marker-end="url(#ahgreen)"/>
+<path d="M1026,712 C1054,726 1052,762 1078,764" fill="none" stroke="url(#lgamber)" stroke-width="3.2" stroke-linecap="round" stroke-dasharray="9 7" filter="url(#glowamber)" marker-end="url(#ahamber)"/>
+<rect x="72" y="900" width="1456" height="104" rx="22" fill="#ffffff" stroke="#E7EDF6" stroke-width="1.3" filter="url(#soft)"/>
+<rect x="96" y="930" width="44" height="44" rx="14.08" fill="url(#lgrose)"/><rect x="96" y="930" width="44" height="44" rx="14.08" fill="none" stroke="#FDA4AF" stroke-opacity="0.9"/><g transform="translate(107.44,941.44) scale(0.8800)" fill="none" stroke="#ffffff" stroke-width="2.50" stroke-linecap="round" stroke-linejoin="round"><path d="M13.2 3L5.5 14h4.8l-1 7 8-11h-5z"/></g>
+<text class="cardtitle" x="154" y="944" font-size="17px">为什么不用别的办法</text>
+<rect x="470" y="926" width="320" height="52" rx="14" fill="#FFFFFF" stroke="#F43F5E" stroke-opacity="0.5"/>
+<g transform="translate(486,942) scale(0.8333)" fill="none" stroke="#F43F5E" stroke-width="2.52" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.8l9 16.4H3z"/><path d="M12 10v4.4"/><path d="M12 17.4h.01"/></g>
+<text class="body" x="516" y="950" style="fill:#0B1220" font-weight="650">黑掉更新域名</text>
+<text class="small" x="516" y="970" font-size="11.6px">请求失败，可能影响同域其他流量</text>
+<rect x="816" y="926" width="320" height="52" rx="14" fill="#FFFFFF" stroke="#F59E0B" stroke-opacity="0.5"/>
+<g transform="translate(832,942) scale(0.8333)" fill="none" stroke="#F59E0B" stroke-width="2.52" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.8l9 16.4H3z"/><path d="M12 10v4.4"/><path d="M12 17.4h.01"/></g>
+<text class="body" x="862" y="950" style="fill:#0B1220" font-weight="650">只删已下载的更新包</text>
+<text class="small" x="862" y="970" font-size="11.6px">应用仍可能再次下载</text>
+<rect x="1162" y="926" width="320" height="52" rx="14" fill="#FFFFFF" stroke="#22C55E" stroke-opacity="0.5"/>
+<g transform="translate(1178,942) scale(0.8333)" fill="none" stroke="#22C55E" stroke-width="2.52" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.8l4.2 4.2L19 7"/></g>
+<text class="body" x="1208" y="950" style="fill:#0B1220" font-weight="650">本机清单（本项目）</text>
+<text class="small" x="1208" y="970" font-size="11.6px">返回正常 HTTP，同版本结束检查</text>
+</svg>

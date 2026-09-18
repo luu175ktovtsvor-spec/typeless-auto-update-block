@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img">
+<defs>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; fill: #0B1220; }
+      .title { font-size: 40px; font-weight: 780; letter-spacing: -0.6px; }
+      .subtitle { font-size: 16px; fill: #475569; }
+      .section { font-size: 19px; font-weight: 730; }
+      .section-sub { font-size: 13px; fill: #8194AD; }
+      .cardtitle { font-size: 16px; font-weight: 700; }
+      .body { font-size: 13.5px; fill: #475569; }
+      .small { font-size: 12.2px; fill: #8194AD; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12.4px; fill: #475569; }
+      .tiny { font-size: 11.5px; font-weight: 640; letter-spacing: 0.2px; }
+    </style>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F7FAFF"/><stop offset="55%" stop-color="#F2F6FE"/><stop offset="100%" stop-color="#EEF3FD"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#60A5FA" stop-opacity="0.30"/><stop offset="100%" stop-color="#60A5FA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.26"/><stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowC" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#5EEAD4" stop-opacity="0.24"/><stop offset="100%" stop-color="#5EEAD4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#0B1220" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    
+      <linearGradient id="lgblue" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#7DD3FC"/><stop offset="100%" stop-color="#2563EB"/>
+      </linearGradient>
+      <linearGradient id="softblue" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#7DD3FC" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#2563EB" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahblue" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#2563EB"/>
+      </marker>
+      <filter id="glowblue" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#2563EB" flood-opacity="0.32"/>
+      </filter>
+      <linearGradient id="lgindigo" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#A5B4FC"/><stop offset="100%" stop-color="#4F46E5"/>
+      </linearGradient>
+      <linearGradient id="softindigo" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#A5B4FC" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#4F46E5" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahindigo" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#4F46E5"/>
+      </marker>
+      <filter id="glowindigo" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#4F46E5" flood-opacity="0.32"/>
+      </filter>
+      <linearGradient id="lgviolet" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#C4B5FD"/><stop offset="100%" stop-color="#7C3AED"/>
+      </linearGradient>
+      <linearGradient id="softviolet" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#C4B5FD" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#7C3AED" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahviolet" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#7C3AED"/>
+      </marker>
+      <filter id="glowviolet" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#7C3AED" flood-opacity="0.32"/>
+      </filter>
+      <linearGradient id="lgteal" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#5EEAD4"/><stop offset="100%" stop-color="#0D9488"/>
+      </linearGradient>
+      <linearGradient id="softteal" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#5EEAD4" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#0D9488" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahteal" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#0D9488"/>
+      </marker>
+      <filter id="glowteal" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#0D9488" flood-opacity="0.32"/>
+      </filter>
+      <linearGradient id="lggreen" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#86EFAC"/><stop offset="100%" stop-color="#16A34A"/>
+      </linearGradient>
+      <linearGradient id="softgreen" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#86EFAC" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#16A34A" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahgreen" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#16A34A"/>
+      </marker>
+      <filter id="glowgreen" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#16A34A" flood-opacity="0.32"/>
+      </filter>
+      <linearGradient id="lgamber" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#FDE68A"/><stop offset="100%" stop-color="#F59E0B"/>
+      </linearGradient>
+      <linearGradient id="softamber" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#FDE68A" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahamber" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#F59E0B"/>
+      </marker>
+      <filter id="glowamber" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#F59E0B" flood-opacity="0.32"/>
+      </filter>
+      <linearGradient id="lgrose" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#FDA4AF"/><stop offset="100%" stop-color="#E11D48"/>
+      </linearGradient>
+      <linearGradient id="softrose" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#FDA4AF" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#E11D48" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahrose" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#E11D48"/>
+      </marker>
+      <filter id="glowrose" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#E11D48" flood-opacity="0.32"/>
+      </filter>
+      <linearGradient id="lgslate" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#CBD5E1"/><stop offset="100%" stop-color="#475569"/>
+      </linearGradient>
+      <linearGradient id="softslate" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#CBD5E1" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#475569" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahslate" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#475569"/>
+      </marker>
+      <filter id="glowslate" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#475569" flood-opacity="0.32"/>
+      </filter>
+      <linearGradient id="lgdark" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#1E293B"/><stop offset="100%" stop-color="#0B1220"/>
+      </linearGradient>
+      <linearGradient id="softdark" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#1E293B" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#0B1220" stop-opacity="0.07"/>
+      </linearGradient>
+      <marker id="ahdark" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+        <path d="M0,0.6 L0,7.4 L10,4 z" fill="#0B1220"/>
+      </marker>
+      <filter id="glowdark" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#0B1220" flood-opacity="0.32"/>
+      </filter>
+    <filter id="soft" x="-12%" y="-16%" width="124%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#0B1220" flood-opacity="0.07"/>
+    </filter>
+    <filter id="lift" x="-14%" y="-18%" width="128%" height="146%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0B1220" flood-opacity="0.10"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0B1220" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="-80" cy="-120" r="700" fill="url(#glowA)"/><circle cx="980" cy="440" r="700" fill="url(#glowB)"/><circle cx="672" cy="495.00000000000006" r="620" fill="url(#glowC)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+<rect x="72" y="58" width="54" height="54" rx="17" fill="url(#lgblue)"/><g transform="translate(86,72) scale(1.0833)" fill="none" stroke="#ffffff" stroke-width="2.03" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><path d="M4.2 7.5l15.6 9"/><path d="M19.8 7.5l-15.6 9"/></g><text class="title" x="144" y="94" >控制边界</text><text class="subtitle" x="146" y="120" >更新清单在本机控制；业务请求和服务端策略保持原样</text>
+<rect x="72" y="176" width="700" height="520" rx="26" fill="#FFFFFF" stroke="#BBF7D0" stroke-width="1.3" filter="url(#lift)"/>
+<rect x="72" y="176" width="700" height="520" rx="26" fill="url(#softgreen)"/>
+<rect x="100" y="204" width="48" height="48" rx="15.36" fill="url(#lggreen)"/><rect x="100" y="204" width="48" height="48" rx="15.36" fill="none" stroke="#86EFAC" stroke-opacity="0.9"/><g transform="translate(112.48,216.48) scale(0.9600)" fill="none" stroke="#ffffff" stroke-width="2.29" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.2l7 2.8v6c0 4-3 7-7 9-4-2-7-5-7-9v-6z"/><path d="M9 12.2l2.1 2.1 4-4.2"/></g>
+<text class="section" x="164" y="226" >本项目可控</text>
+<text class="section-sub" x="164" y="250" >客户端侧 · 每一项都可还原</text>
+<rect x="100" y="284" width="644" height="86" rx="18" fill="#FFFFFF" stroke="#DCFCE7" stroke-width="1.3" filter="url(#soft)"/>
+<rect x="118" y="305" width="44" height="44" rx="14.08" fill="url(#lggreen)"/><rect x="118" y="305" width="44" height="44" rx="14.08" fill="none" stroke="#86EFAC" stroke-opacity="0.9"/><g transform="translate(129.44,316.44) scale(0.8800)" fill="none" stroke="#ffffff" stroke-width="2.50" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 3h6l4 4v14h-10z"/><path d="M13.5 3v4.5H18"/></g>
+<text class="cardtitle" x="176" y="324" >更新源 URL</text>
+<text class="small" x="176" y="348" font-size="12.2px">app-update.yml → 127.0.0.1:47821/&lt;slug&gt;/</text>
+<rect x="100" y="386" width="644" height="86" rx="18" fill="#FFFFFF" stroke="#DCFCE7" stroke-width="1.3" filter="url(#soft)"/>
+<rect x="118" y="407" width="44" height="44" rx="14.08" fill="url(#lggreen)"/><rect x="118" y="407" width="44" height="44" rx="14.08" fill="none" stroke="#86EFAC" stroke-opacity="0.9"/><g transform="translate(129.44,418.44) scale(0.8800)" fill="none" stroke="#ffffff" stroke-width="2.50" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4.5h16v6H4z"/><path d="M4 13.5h16v6H4z"/><path d="M7.5 7.5h.01"/><path d="M7.5 16.5h.01"/></g>
+<text class="cardtitle" x="176" y="426" >清单内容</text>
+<text class="small" x="176" y="450" font-size="12.2px">任意 channel → “已安装版本”＝“无新版本”</text>
+<rect x="100" y="488" width="644" height="86" rx="18" fill="#FFFFFF" stroke="#DCFCE7" stroke-width="1.3" filter="url(#soft)"/>
+<rect x="118" y="509" width="44" height="44" rx="14.08" fill="url(#lggreen)"/><rect x="118" y="509" width="44" height="44" rx="14.08" fill="none" stroke="#86EFAC" stroke-opacity="0.9"/><g transform="translate(129.44,520.44) scale(0.8800)" fill="none" stroke="#ffffff" stroke-width="2.50" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 7h15"/><path d="M9.5 7V4.8h5V7"/><path d="M6.5 7l1 13h9l1-13"/><path d="M10.5 11v6"/><path d="M13.5 11v6"/></g>
+<text class="cardtitle" x="176" y="528" >已下载的更新载荷</text>
+<text class="small" x="176" y="552" font-size="12.2px">看守清理 pending/*（目录名不符则跳过）</text>
+<rect x="100" y="590" width="644" height="86" rx="18" fill="#FFFFFF" stroke="#DCFCE7" stroke-width="1.3" filter="url(#soft)"/>
+<rect x="118" y="611" width="44" height="44" rx="14.08" fill="url(#lggreen)"/><rect x="118" y="611" width="44" height="44" rx="14.08" fill="none" stroke="#86EFAC" stroke-opacity="0.9"/><g transform="translate(129.44,622.44) scale(0.8800)" fill="none" stroke="#ffffff" stroke-width="2.50" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7.5a2 2 0 0 1 2-2h3.5l1.8 2H19a2 2 0 0 1 2 2v8.5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></g>
+<text class="cardtitle" x="176" y="630" >原始配置与还原</text>
+<text class="small" x="176" y="654" font-size="12.2px">逐字节备份 + revert；系统仍可能重新校验</text>
+<rect x="828" y="176" width="700" height="520" rx="26" fill="#FFFFFF" stroke="#FECDD3" stroke-width="1.3" filter="url(#lift)"/>
+<rect x="828" y="176" width="700" height="520" rx="26" fill="url(#softrose)"/>
+<rect x="856" y="204" width="48" height="48" rx="15.36" fill="url(#lgrose)"/><rect x="856" y="204" width="48" height="48" rx="15.36" fill="none" stroke="#FDA4AF" stroke-opacity="0.9"/><g transform="translate(868.48,216.48) scale(0.9600)" fill="none" stroke="#ffffff" stroke-width="2.29" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18.5a4.2 4.2 0 0 1 0-8.4 5.2 5.2 0 0 1 10 1.6A3.6 3.6 0 0 1 16.5 18.5z"/></g>
+<text class="section" x="920" y="226" >服务端决策</text>
+<text class="section-sub" x="920" y="250" >本项目不修改 · 由 Typeless 服务端和账号策略决定</text>
+<rect x="856" y="284" width="644" height="86" rx="18" fill="#FFFFFF" stroke="#FFE4E6" stroke-width="1.3" filter="url(#soft)"/>
+<rect x="874" y="305" width="44" height="44" rx="14.08" fill="url(#lgrose)"/><rect x="874" y="305" width="44" height="44" rx="14.08" fill="none" stroke="#FDA4AF" stroke-opacity="0.9"/><g transform="translate(885.44,316.44) scale(0.8800)" fill="none" stroke="#ffffff" stroke-width="2.50" stroke-linecap="round" stroke-linejoin="round"><path d="M13.2 3L5.5 14h4.8l-1 7 8-11h-5z"/></g>
+<text class="cardtitle" x="932" y="324" >模型与提示词</text>
+<text class="small" x="932" y="348" font-size="12.2px">转写 / 润色 / 翻译的模型版本随时可变</text>
+<rect x="856" y="386" width="644" height="86" rx="18" fill="#FFFFFF" stroke="#FFE4E6" stroke-width="1.3" filter="url(#soft)"/>
+<rect x="874" y="407" width="44" height="44" rx="14.08" fill="url(#lgrose)"/><rect x="874" y="407" width="44" height="44" rx="14.08" fill="none" stroke="#FDA4AF" stroke-opacity="0.9"/><g transform="translate(885.44,418.44) scale(0.8800)" fill="none" stroke="#ffffff" stroke-width="2.50" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 12S6 6.5 12 6.5 21.5 12 21.5 12 18 17.5 12 17.5 2.5 12 2.5 12z"/><path d="M12 14.8a2.8 2.8 0 1 0 0-5.6 2.8 2.8 0 0 0 0 5.6"/></g>
+<text class="cardtitle" x="932" y="426" >数据去向与留存</text>
+<text class="small" x="932" y="450" font-size="12.2px">客户端代码不能证明服务端最终处理方式</text>
+<rect x="856" y="488" width="644" height="86" rx="18" fill="#FFFFFF" stroke="#FFE4E6" stroke-width="1.3" filter="url(#soft)"/>
+<rect x="874" y="509" width="44" height="44" rx="14.08" fill="url(#lgrose)"/><rect x="874" y="509" width="44" height="44" rx="14.08" fill="none" stroke="#FDA4AF" stroke-opacity="0.9"/><g transform="translate(885.44,520.44) scale(0.8800)" fill="none" stroke="#ffffff" stroke-width="2.50" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 4.5a4.5 4.5 0 1 0-1.6 8.6l-1.4 1.4h-2v2h-2v2H4.5v-2.5l5-5A4.5 4.5 0 0 1 15.5 4.5z"/><path d="M16.6 8.2h.01"/></g>
+<text class="cardtitle" x="932" y="528" >加密公钥</text>
+<text class="small" x="932" y="552" font-size="12.2px">客户端会向服务端取得 RSA 公钥</text>
+<rect x="856" y="590" width="644" height="86" rx="18" fill="#FFFFFF" stroke="#FFE4E6" stroke-width="1.3" filter="url(#soft)"/>
+<rect x="874" y="611" width="44" height="44" rx="14.08" fill="url(#lgrose)"/><rect x="874" y="611" width="44" height="44" rx="14.08" fill="none" stroke="#FDA4AF" stroke-opacity="0.9"/><g transform="translate(885.44,622.44) scale(0.8800)" fill="none" stroke="#ffffff" stroke-width="2.50" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.5a8.5 8.5 0 1 0 0-17 8.5 8.5 0 0 0 0 17"/><path d="M12 7.5V12l3 2"/></g>
+<text class="cardtitle" x="932" y="630" >配额与最低版本</text>
+<text class="small" x="932" y="654" font-size="12.2px">套餐、配额、强制升级要求由服务端判定</text>
+<line x1="800" y1="176" x2="800" y2="696" stroke="#94A3B8" stroke-width="2.4" stroke-dasharray="10 8"/>
+<rect x="726" y="396" width="148" height="44" rx="22" fill="url(#lgdark)"/>
+<g transform="translate(744,409) scale(0.7500)" fill="none" stroke="#FFFFFF" stroke-width="2.80" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 11h11v8.5h-11z"/><path d="M9.2 11V8.4a2.8 2.8 0 0 1 5.6 0V11"/></g>
+<text class="body" x="770" y="424" style="fill:#ffffff" font-weight="650">信任边界</text>
+<rect x="72" y="728" width="1456" height="132" rx="26" fill="url(#lgdark)" stroke="#1E293B" stroke-width="1.3" filter="url(#lift)"/>
+<rect x="104" y="758" width="44" height="44" rx="14.08" fill="url(#lgamber)"/><rect x="104" y="758" width="44" height="44" rx="14.08" fill="none" stroke="#FDE68A" stroke-opacity="0.9"/><g transform="translate(115.44,769.44) scale(0.8800)" fill="none" stroke="#ffffff" stroke-width="2.50" stroke-linecap="round" stroke-linejoin="round"><path d="M13.2 3L5.5 14h4.8l-1 7 8-11h-5z"/></g>
+<text class="section" x="168" y="782" style="fill:#ffffff" font-size="21px">结论：本项目只改变更新清单来源</text>
+<text class="body" x="168" y="812" style="fill:#CBD5E1" font-size="13.4px">它不代理语音、上下文、历史同步或模型请求，也不能阻止服务端拒绝旧客户端。</text>
+</svg>

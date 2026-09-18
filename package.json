@@ -1,0 +1,16 @@
+{
+  "name": "typeless-auto-update-block",
+  "version": "0.1.0",
+  "description": "Local controller for Electron update feeds; backs up app-update.yml and serves the installed version on loopback",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "typeless-auto-update-block": "./src/cli.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
